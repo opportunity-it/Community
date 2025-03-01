@@ -12,6 +12,13 @@ img {
   height: auto;
 }
 
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: calc(26 / 20);
+  letter-spacing: 3px;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -142,4 +149,20 @@ img {
   color: #ffffff;
   background-color: #8e9a82;
   border-radius: 59px;
+}
+
+/* STYLES OF CATEGORIES  */
+.categories{
+  background-color: #F5F5F5;
+}
+
+.title-categories {
+  margin-bottom: 25px;
+}
+
+.images-categories {
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
 }

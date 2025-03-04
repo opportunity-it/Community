@@ -31,3 +31,8 @@ h6 {
   padding: 0;
   text-align: center;
 }
+
+input,
+textarea{
+  font-family: inherit;
+}

@@ -124,33 +124,43 @@
           <a href="#" class="about-link">LEARN MORE</a>
         </div>
       </section>
-      <section>
+      <section class="follow">
         <div class="container">
-          <h2>FOLLOW US</h2>
-          <form>
+          <h2 class="title title-follow">FOLLOW US</h2>
+          <form class="form">
             <label>
-              <input type="text" placeholder="Enter your name" />
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="user_name"
+                minlength="2"
+                required
+              />
             </label>
             <label>
               <input
                 type="email"
-                name="mail"
-                id="mail"
+                name="user_mail"
                 placeholder="Enter a valid email address"
+                minlength="2"
+                required
               />
             </label>
+          <label>
             <textarea
-              name="message"
-              id="message"
-              placeholder="Enter your message"
-            ></textarea>
-            <button type="submit">SUBMIT</button>
+            name="message"
+            placeholder="Enter your message"
+            rows="5"
+          ></textarea>
+          </label>
+            <button type="submit" class="button-form">SUBMIT</button>
           </form>
           <img
             src="./images/img-form.jpg"
             alt="girl with a plant"
             width="243"
             height="345"
+            class="follow-img"
           />
         </div>
       </section>

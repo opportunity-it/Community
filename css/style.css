@@ -282,7 +282,7 @@ img {
 /* STYLES OF FOLLOW  */
 .follow {
   position: relative;
-  z-index: -2;
+  z-index: 0;
   padding-top: 34px;
   padding-bottom: 77px;
 

@@ -36,7 +36,6 @@ img {
 
 /* STYLES OF HEADER  */
 .header {
-  padding-top: 16px;
   padding-bottom: 36px;
 
   background-color: #faf9f8;
@@ -45,6 +44,12 @@ img {
 @media screen and (min-width:1012px) {
   .header{
     padding-bottom: 47px;
+  }
+}
+
+@media screen and (max-width:1011px) {
+  .header{
+    padding-top: 16px;
   }
 }
 

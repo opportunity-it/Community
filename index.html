@@ -15,15 +15,15 @@
   <body>
     <header class="header">
       <div class="container header-container">
-               <nav class="nav">
+        <nav class="nav">
           <a href="./index.html" class="link-logo">ALTANSCHOOL WEB COURSES</a>
-       <ul class="list-nav">
-        <li><a href="#" class="link-nav">HOME</a></li>
-        <li><a href="#" class="link-nav">ABOUT</a></li>
-        <li><a href="#" class="link-nav">SHOP</a></li>
-        <li><a href="#" class="link-nav">BLOG</a></li>
-        <li><a href="#" class="link-nav">CONTACT</a></li>
-       </ul>
+          <ul class="list-nav">
+            <li><a href="#" class="link-nav">HOME</a></li>
+            <li><a href="#" class="link-nav">ABOUT</a></li>
+            <li><a href="#" class="link-nav">SHOP</a></li>
+            <li><a href="#" class="link-nav">BLOG</a></li>
+            <li><a href="#" class="link-nav">CONTACT</a></li>
+          </ul>
         </nav>
         <button class="button-mobile">
           <span></span>
@@ -33,9 +33,9 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">ORGANIC FASHION</h1>
           <div class="description-img">
             <div class="description-button">
+              <h1 class="hero-title">ORGANIC FASHION</h1>
               <p class="hero-description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -44,7 +44,43 @@
               </p>
               <button type="button" class="hero-button">SHOP NOW</button>
             </div>
-            <img src="./images/plant-mobile.jpg" alt="home-plant" />
+            <picture class="picture-hero">
+              <!-- screen width 1012px  -->
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-hero-992.jpg    1x,
+                  ./images/img-hero-992-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-hero-992.webp    1x,
+                  ./images/img-hero-992-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <!-- mobile screen  -->
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-hero-mobile.jpg    1x,
+                  ./images/img-hero-mobile-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-hero-mobile.webp    1x,
+                  ./images/img-hero-mobile-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <img src="./images/plant-mobile.jpg" alt="image hero mobile" />
+            </picture>
           </div>
         </div>
       </section>
@@ -155,13 +191,13 @@
                 required
               />
             </label>
-          <label>
-            <textarea
-            name="message"
-            placeholder="Enter your message"
-            rows="5"
-          ></textarea>
-          </label>
+            <label>
+              <textarea
+                name="message"
+                placeholder="Enter your message"
+                rows="5"
+              ></textarea>
+            </label>
             <button type="submit" class="button-form">SUBMIT</button>
           </form>
           <img

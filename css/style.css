@@ -19,6 +19,14 @@ img {
   letter-spacing: 3px;
 }
 
+@media screen and (min-width: 1012px) {
+  .title {
+    font-size: 32px;
+    line-height: calc(42 / 32);
+    letter-spacing: 4.8px;
+  }
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -180,7 +188,7 @@ img {
   background-color: #faf9f8;
 }
 
-@media screen and (min-width:1012px) {
+@media screen and (min-width: 1012px) {
   .hero {
     padding-bottom: 101px;
     margin-bottom: 52px;
@@ -225,14 +233,13 @@ img {
   .hero .description-img {
     position: relative;
 
-  justify-content: space-between;
-
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 1012px) {
   .hero .description-img {
-margin-right: 85px;
+    margin-right: 85px;
 
     flex-direction: row-reverse;
     gap: 27px;
@@ -284,7 +291,7 @@ margin-right: 85px;
 
 @media screen and (min-width: 1012px) {
   .hero-button {
-      padding: 8.5px 27px;
+    padding: 8.5px 27px;
     min-width: 227px;
     min-height: 43px;
 
@@ -312,6 +319,16 @@ margin-right: 85px;
 
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 1012px) {
+  .title-categories {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 37px;
+
+    max-width: 311px;
+  }
 }
 
 /* STYLES OF NEW-COLLECTION  */

@@ -88,10 +88,47 @@
         <div class="container">
           <h2 class="title title-categories">SHOP BY CATEGORIES</h2>
           <div class="images-categories">
+            <picture>
+              <!-- screen 992px  -->
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-categories-1-992.jpg    1x,
+                  ./images/img-categories-1-992-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-categories-1-992.webp    1x,
+                  ./images/img-categories-1-992-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <!-- mobile screen  -->
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-categories-1.jpg    1x,
+                  ./images/img-categories-1-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-categories-1.webp    1x,
+                  ./images/img-categories-1-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                src="./images/img-categories-1.jpg"
+                alt="image of leaves one"
+              />
+            </picture>
             <img
-              src="./images/img-categories-1.jpg"
-              alt="image of leaves one"
-            /><img
               src="./images/img-categories-2.jpg"
               alt="image of leaves second"
             /><img
@@ -213,4 +250,5 @@
   </body>
 </html>
 <!-- DON'T FORGOT TO OPTIMISATE IMAGES  -->
+<!-- DON'T FORGOT TO ADD FORMAT WEBP TO PHOTOS  -->
 <!-- DO A SLIDER FOR NEW-COLLECTION (IMAGES) IN THE END  -->

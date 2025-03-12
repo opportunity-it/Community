@@ -337,6 +337,12 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1012px) {
+  .new-collection {
+    padding-top: 40px;
+  }
+}
+
 .new-collection-container {
   position: relative;
 }
@@ -348,16 +354,33 @@ img {
   bottom: -60px;
   left: 50%;
 
-  width: 375px;
   height: 204px;
+  width: 100%;
 
   background-color: #dbdbdb;
   z-index: -1;
   transform: translate(-50%);
 }
 
+@media screen and (max-width:1011px) {
+  .new-collection-container::after {
+    width: 375px;
+
+  }
+}
+
 .title-new-collection {
   margin-bottom: 34px;
+}
+
+@media screen and (min-width: 1012px) {
+  .title-new-collection {
+    margin-bottom: 55px;
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 263px;
+  }
 }
 
 .new-collection-images {

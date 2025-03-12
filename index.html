@@ -287,7 +287,7 @@
             <img
               src="./images/img-categories-bg.jpg"
               alt="image of leaves background-color"
-                       />
+            />
           </picture>
         </div>
       </section>
@@ -295,13 +295,47 @@
         <div class="container new-collection-container">
           <h2 class="title title-new-collection">NEW COLLECTION</h2>
           <div class="new-collection-images">
-            <img
-              width="71"
-              height="154"
-              class="img-first"
-              src="./images/img-collection-first.png"
-              alt="type of plant one"
-            /><img
+            <picture>
+              <!-- screen 992px  -->
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-collection-first-992.png    1x,
+                  ./images/img-collection-first-992-2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-collection-first-992.webp    1x,
+                  ./images/img-collection-first-992-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <!-- mobile screen   -->
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-collection-first.png    1x,
+                  ./images/img-collection-first-2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-collection-first.webp    1x,
+                  ./images/img-collection-first-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                class="img-first"
+                src="./images/img-collection-first.png"
+                alt="type of plant one"
+              /> </picture
+            ><img
               width="177"
               height="179"
               src="./images/img-collection-second.png"

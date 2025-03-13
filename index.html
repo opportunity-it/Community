@@ -334,13 +334,49 @@
                 class="img-first"
                 src="./images/img-collection-first.png"
                 alt="type of plant one"
-              /> </picture
-            ><img
-              width="177"
-              height="179"
-              src="./images/img-collection-second.png"
-              alt="type of plant second"
-            /><img
+              />
+            </picture>
+            <picture>
+              <!-- screen 992px  -->
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-collection-second-992.png    1x,
+                  ./images/img-collection-second-992-2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(min-width:1012px)"
+                srcset="
+                  ./images/img-collection-second-992.webp    1x,
+                  ./images/img-collection-second-992-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <!-- mobile screen  -->
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-collection-second.png    1x,
+                  ./images/img-collection-second-2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(max-width:1011px)"
+                srcset="
+                  ./images/img-collection-second.webp    1x,
+                  ./images/img-collection-second-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                src="./images/img-collection-second.png"
+                alt="type of plant second"
+              />
+            </picture>
+            <img
               width="65"
               height="153"
               class="img-third"

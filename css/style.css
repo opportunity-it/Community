@@ -366,6 +366,8 @@ img {
 
 @media screen and (min-width:1012px) {
   .new-collection-container::after{
+    bottom: -70px;
+
     height: 316px;
   }
 }
@@ -449,6 +451,12 @@ letter-spacing: 4.8px;
   padding-bottom: 90px;
 
   background-color: #faf9f8;
+}
+
+@media screen and (min-width:1012px) {
+  .about{
+    padding-top: 68px;
+  }
 }
 
 .about-container {

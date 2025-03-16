@@ -454,12 +454,21 @@ img {
 @media screen and (min-width: 1012px) {
   .about {
     padding-top: 68px;
+    padding-bottom: 45px;
   }
 }
 
 .about-container {
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width:1012px) {
+  .about-container {
+margin-left: 58px;
+
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width: 1011px) {
@@ -517,8 +526,10 @@ img {
   }
 }
 
-.about-img {
+@media screen and (max-width:1011px) {
+  .about-img {
   margin-bottom: 33px;
+}
 }
 
 @media screen and (min-width: 1012px) {
@@ -535,7 +546,7 @@ img {
 
 @media screen and (min-width: 1012px) {
   .about .description.size {
-margin-bottom: 44px;
+    margin-bottom: 44px;
 
     font-size: 20px;
     line-height: calc(26 / 20);
@@ -543,7 +554,7 @@ margin-bottom: 44px;
 }
 
 .about-link {
-   width: 149px;
+  width: 149px;
   height: 43px;
 
   font-size: 14px;
@@ -559,17 +570,18 @@ margin-bottom: 44px;
   border: 5px solid #8e9a82;
 }
 
-@media screen and (min-width:1012px) {
-  .about-link{
-width: 194px;height: 46px;
+@media screen and (min-width: 1012px) {
+  .about-link {
+    width: 194px;
+    height: 46px;
 
-font-size: 20px;
-line-height: calc(26/20);
-letter-spacing: 3px;
+    font-size: 20px;
+    line-height: calc(26 / 20);
+    letter-spacing: 3px;
   }
 }
 
-@media screen and (max-width:1011px) {
+@media screen and (max-width: 1011px) {
   .about-link {
     margin-right: auto;
     margin-left: auto;

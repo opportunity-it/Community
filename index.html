@@ -436,13 +436,26 @@
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <img
-            width="206"
-            height="258"
-            src="./images/about-img.jpg"
-            alt="a leaf"
-            class="about-img"
-          />
+          <picture   class="about-img">
+            <!-- screen 992px  -->
+            <source
+            media="(min-width:1012px)"
+            srcset="./images/about-img-992.jpg 1x, ./images/about-img-992-2x.jpg 2x" type="image/jpg">
+         <source
+         media="(min-width:1012px)"
+         srcset="./images/about-img-992.webp 1x, ./images/about-img-992-2x.webp 2x" type="image/webp">
+        <!-- mobile screen -->
+         <source
+         media="(max-width:1011px)"
+         srcset="./images/about-img.jpg 1x, ./images/about-img-2x.jpg 2x" type="image/jpg">
+        <source
+        media="(max-width:1011px)"
+        srcset="./images/about-img-992.webp 1x, ./images/about-img-992-2x.webp 2x" type="image/webp">
+         <img
+          src="./images/about-img.jpg"
+         alt="a leaf"
+              />        </picture>
+       
           <div class="description-about">
             <h2 class="title title-about title-about-desktop">ABOUT US</h2>
 

@@ -639,6 +639,7 @@ textarea {
 input {
   margin-bottom: 9px;
   padding-left: 6px;
+  padding-bottom: 53px;
 
   height: 81px;
 
@@ -647,7 +648,6 @@ input {
   border-radius: 10px;
   border: 5px solid #8e9a82;
   background-color: transparent;
-  background-color: red;
   outline: transparent;
 }
 
@@ -666,7 +666,6 @@ textarea {
   border-radius: 10px;
   border: 5px solid #8e9a82;
   background-color: transparent;
-  background-color: red;
 }
 
 .button-form {

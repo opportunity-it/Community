@@ -627,8 +627,12 @@ margin-left: 58px;
   width: 257px;
 }
 
-label {
+label{
   display: block;
+}
+
+.label-input{
+  margin-bottom: 9px;
 }
 
 input,
@@ -636,8 +640,11 @@ textarea {
   width: 100%;
 }
 
+textarea{
+  display: block;
+}
+
 input {
-  margin-bottom: 9px;
   padding-left: 6px;
   padding-bottom: 53px;
 
@@ -658,9 +665,12 @@ textarea::placeholder {
   line-height: calc(19 / 15);
 }
 
-textarea {
+.label-textarea{
   margin-bottom: 41px;
 
+}
+
+textarea {
   resize: none;
 
   border-radius: 10px;

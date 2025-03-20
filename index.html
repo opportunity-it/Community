@@ -436,26 +436,41 @@
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <picture   class="about-img">
+          <picture class="about-img">
             <!-- screen 992px  -->
             <source
-            media="(min-width:1012px)"
-            srcset="./images/about-img-992.jpg 1x, ./images/about-img-992-2x.jpg 2x" type="image/jpg">
-         <source
-         media="(min-width:1012px)"
-         srcset="./images/about-img-992.webp 1x, ./images/about-img-992-2x.webp 2x" type="image/webp">
-        <!-- mobile screen -->
-         <source
-         media="(max-width:1011px)"
-         srcset="./images/about-img.jpg 1x, ./images/about-img-2x.jpg 2x" type="image/jpg">
-        <source
-        media="(max-width:1011px)"
-        srcset="./images/about-img-992.webp 1x, ./images/about-img-992-2x.webp 2x" type="image/webp">
-         <img
-          src="./images/about-img.jpg"
-         alt="a leaf"
-              />        </picture>
-       
+              media="(min-width:1012px)"
+              srcset="
+                ./images/about-img-992.jpg    1x,
+                ./images/about-img-992-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:1012px)"
+              srcset="
+                ./images/about-img-992.webp    1x,
+                ./images/about-img-992-2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <!-- mobile screen -->
+            <source
+              media="(max-width:1011px)"
+              srcset="./images/about-img.jpg 1x, ./images/about-img-2x.jpg 2x"
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:1011px)"
+              srcset="
+                ./images/about-img-992.webp    1x,
+                ./images/about-img-992-2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <img src="./images/about-img.jpg" alt="a leaf" />
+          </picture>
+
           <div class="description-about">
             <h2 class="title title-about title-about-desktop">ABOUT US</h2>
 
@@ -483,43 +498,72 @@
       </section>
       <section class="follow">
         <div class="container follow-container">
-        <div class="title-form">
-          <h2 class="title title-follow">FOLLOW US</h2>
-          <form class="form">
-            <label class="label-input">
-              <input
-                type="text"
-                placeholder="Enter your name"
-                name="user_name"
-                minlength="2"
-                required
-              />
-            </label>
-            <label class="label-input">
-              <input
-                type="email"
-                name="user_mail"
-                placeholder="Enter a valid email address"
-                minlength="2"
-                required
-              />
-            </label>
-            <label class="label-textarea">
-              <textarea
-                name="message"
-                placeholder="Enter your message"
-                        ></textarea>
-            </label>
-            <button type="submit" class="button-form">SUBMIT</button>
-          </form>
-        </div>
-          <img
-            src="./images/img-form.jpg"
-            alt="girl with a plant"
-            width="243"
-            height="345"
-            class="follow-img"
-          />
+          <div class="title-form">
+            <h2 class="title title-follow">FOLLOW US</h2>
+            <form class="form">
+              <label class="label-input">
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  name="user_name"
+                  minlength="2"
+                  required
+                />
+              </label>
+              <label class="label-input">
+                <input
+                  type="email"
+                  name="user_mail"
+                  placeholder="Enter a valid email address"
+                  minlength="2"
+                  required
+                />
+              </label>
+              <label class="label-textarea">
+                <textarea
+                  name="message"
+                  placeholder="Enter your message"
+                ></textarea>
+              </label>
+              <button type="submit" class="button-form">SUBMIT</button>
+            </form>
+          </div>
+
+          <picture>
+            <!-- screen 992px  -->
+            <source
+              media="(min-width:1012px)"
+              srcset="
+                ./images/img-form-992.jpg    1x,
+                ./images/img-form-992-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:1012px)"
+              srcset="
+                ./images/img-form-992.webp    1x,
+                ./images/img-form-992-2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <!-- mobile screen  -->
+            <source
+              media="(max-width:1011px)"
+              srcset="./images/img-form.jpg 1x, ./images/img-form-2x.jpg 2x"
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:1011px)"
+              srcset="./images/img-form.webp 1x, ./images/img-form-2x.webp 2x"
+              type="image/webp"
+            />
+            <img
+              src="./images/img-form.jpg"
+              alt="girl with a plant"
+              class="follow-img"
+            />
+          </picture>
         </div>
       </section>
     </main>

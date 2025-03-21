@@ -42,6 +42,11 @@ img {
   }
 }
 
+@media screen and (min-width:1386px) {
+  .container{
+    max-width: 1386px;
+  }
+}
 /* STYLES OF HEADER  */
 .header {
   padding-bottom: 36px;
@@ -52,6 +57,12 @@ img {
 @media screen and (min-width: 1012px) {
   .header {
     padding-bottom: 47px;
+  }
+}
+
+@media screen and (min-width:1386px) {
+  .header{
+    padding-bottom: 15px;
   }
 }
 
@@ -74,6 +85,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width:1386px) {
+  .nav{
+    margin-left: 144px;
+    margin-right: 159px;
+  }
 }
 
 @media screen and (max-width: 1011px) {
@@ -103,6 +121,14 @@ img {
   .link-nav {
     padding-top: 46px;
     padding-bottom: 46px;
+  }
+}
+
+@media screen and (min-width:1386px) {
+  .link-logo,
+  .link-nav{
+    padding-top: 73px;
+    padding-bottom:  73px;
   }
 }
 

@@ -250,6 +250,12 @@ img {
   }
 }
 
+@media screen and (min-width:1386px) {
+  .hero-title{
+    margin-bottom: 45px;
+  }
+}
+
 .hero .description-img {
   display: flex;
   align-items: start;
@@ -302,6 +308,14 @@ img {
   }
 }
 
+@media screen and (min-width:1386px) {
+  .hero-description{
+margin-bottom: 60px;
+
+    max-width: 535px;
+  }
+}
+
 .hero-button {
   font-size: 13px;
   line-height: calc(17 / 13);
@@ -325,6 +339,15 @@ img {
     line-height: calc(26 / 20);
     letter-spacing: 3px;
   }
+}
+
+@media screen and (min-width:1386px) {
+  .hero-button{
+    padding: 14px 40px;
+
+    min-width: 206px;
+    min-height: 55px;
+      }
 }
 
 .picture-hero {

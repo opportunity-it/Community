@@ -221,6 +221,13 @@ img {
   }
 }
 
+@media screen and (min-width:1386px) {
+  .hero {
+    padding-bottom: 144px;
+    margin-bottom: 60px;
+  }
+}
+
 .hero-title {
   margin-bottom: 17px;
 
@@ -270,6 +277,14 @@ img {
   }
 }
 
+@media screen and (min-width:1386px) {
+  .hero .description-img{
+    margin-right: 185px;
+
+    gap: 99px;
+  }
+}
+
 @media screen and (max-width: 1011px) {
   .hero .description-img {
     position: relative;
@@ -281,6 +296,12 @@ img {
 @media screen and (min-width: 1012px) {
   .hero .description-button {
     margin-top: 24px;
+  }
+}
+
+@media screen and (min-width:1386px) {
+  .hero .description-button {
+    margin-top: 33px;
   }
 }
 

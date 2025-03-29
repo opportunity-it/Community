@@ -466,6 +466,14 @@ margin-bottom: 60px;
   }
 }
 
+@media screen and (min-width:1386px) {
+  .new-collection-container::after{
+bottom: -151px;
+
+    height: 443px;
+  }
+}
+
 @media screen and (max-width: 1011px) {
   .new-collection-container::after {
     width: 375px;
@@ -551,6 +559,12 @@ margin-bottom: 60px;
     font-size: 32px;
     line-height: calc(42 / 32);
     letter-spacing: 4.8px;
+  }
+}
+
+@media screen and (min-width:1386px) {
+  .new-collection-description {
+    max-width: 967px;
   }
 }
 
